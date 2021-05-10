@@ -12,7 +12,7 @@ function Nomination(props) {
   
   return (
     <div className = 'nomination'>
-      <Button variant="custom"  className = "nominationButton" onClick={handleShow}>
+      <Button variant="custom"  className= "nominationButton" onClick={handleShow}>
         My Nominees
       </Button>
       

@@ -1,13 +1,12 @@
 import './App.css';
 import { React, Component } from "react"
 import Alert from 'react-bootstrap/Button'
-import  Search from "./Search/Search";
-import  Nomination from "./Nomination/Nomination";
-import  SearchResult from "./SearchResult/SearchResult";
-import  NoResult from "./SearchResult/NoResult";
-import  List from "./Nomination/List";
+import Search from "./Search/Search";
+import Nomination from "./Nomination/Nomination";
+import SearchResult from "./SearchResult/SearchResult";
+import NoResult from "./SearchResult/NoResult";
+import List from "./Nomination/List";
 import axios from 'axios';
-
 class App extends Component  {
   state = {
     userInput: "",
@@ -94,7 +93,7 @@ render () {
       
       if( this.state.userInput.length >= 24 && this.state.result.length > 0) {
        search = (
-       <h5 className = "result_for" > {this.state.userInput}</h5>)
+       <h5 className= "result_for" > {this.state.userInput}</h5>)
 
       results = (
         <div>

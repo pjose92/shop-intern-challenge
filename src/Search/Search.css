@@ -1,15 +1,14 @@
 .search-section {
-   background-image:-webkit-linear-gradient(rgba(0, 0, 0, 2), rgba(0, 0, 0, 0.2)),
-    url('https://image.shutterstock.com/image-vector/online-cinema-art-movie-watching-260nw-586719869.jpg');
-   background-position: 50% 0 ;
    height: 70vh;
    color:white;
-   background-size: cover
+   background-color:#018060;
 }
 
 .toplogo {
   font-size: 200%;
   padding:15px;
+  position: fixed;
+
 }
 
 .title{
@@ -25,7 +24,7 @@
   border: none;
   background: #ffffff;
   border-radius: 10px;
-  width: 600px;
+  width: 500px;
   height: 40px;
   position: relative; 
   display:block;
