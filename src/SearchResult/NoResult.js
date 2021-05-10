@@ -1,7 +1,7 @@
 import React from "react"
 import "./NoResult.css"
 
-const no_result = props => {
+const noResult = props => {
   return (
     <div className = "no_result">
      <h1 className = "no_result_message"> Search a Movie! </h1>
@@ -9,4 +9,4 @@ const no_result = props => {
   )
 }
 
-export default no_result
+export default noResult
