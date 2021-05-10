@@ -1,0 +1,32 @@
+.search_result-section {
+  height: 25vh;
+}
+
+.result_for {
+  margin-top:40px;
+  margin-left:20%
+} 
+
+.nominate {
+  float: right;
+  background-color:#0ba00b;
+  border-color: #184b18;
+  color:white;
+  padding: 6px 15px;
+  border-radius: 10px;
+}
+
+.nominate :hover {
+  box-shadow: 5px 10px
+}
+.card{ 
+  width: 20em;
+  margin: 0 auto;
+}
+ 
+@media  only screen and (max-width: 650px)  {
+  .card{
+    width: 20em;
+  }
+}
+
