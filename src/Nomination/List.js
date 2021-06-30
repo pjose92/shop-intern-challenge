@@ -22,5 +22,3 @@ const list = props => {
 }
 
 export default list
-
-

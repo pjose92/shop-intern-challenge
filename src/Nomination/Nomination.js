@@ -1,4 +1,3 @@
-
 import {React, useState } from "react"
 import "./Nomination.css"
 import Button from 'react-bootstrap/Button'
