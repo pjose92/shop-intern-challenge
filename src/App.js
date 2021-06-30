@@ -93,13 +93,17 @@ render () {
       
       if( this.state.userInput.length >= 24 && this.state.result.length > 0) {
        search = (
-       <h5 className= "result_for" > {this.state.userInput}</h5>)
+       <h5 
+        className= "result_for" 
+      > 
+        {this.state.userInput}
+      </h5>)
 
       results = (
         <div>
           {this.state.result.map(resultState)}
         </div> 
-      )} else results = <NoResult></NoResult>
+      )} else results= <NoResult></NoResult>
 
   return (
 

@@ -10,10 +10,19 @@ const search_result = props => {
   return (
     <div className = "search_result-section">
       <Card className = "card">
-        <Card.Body className = 'result'>
+        <Card.Body 
+          className='result'
+        >
           <Card.Title>{title}</Card.Title>
           <Card.Title>{year}</Card.Title>
-          <Button  variant="custom" className = "nominate" onClick = {nominate} disabled = {nominated || maxLimit } >Nominate</Button>
+          <Button  
+            variant="custom" 
+            className = "nominate" 
+            onClick = {nominate} 
+            disabled = {nominated || maxLimit } 
+          >
+            Nominate
+          </Button>
         </Card.Body>
       </Card>
     </div>

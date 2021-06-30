@@ -3,8 +3,12 @@ import "./NoResult.css"
 
 const noResult = props => {
   return (
-    <div className = "no_result">
-     <h1 className = "no_result_message"> Search a Movie! </h1>
+    <div 
+      className= "no_result"
+    >
+     <h1 className="no_result_message"> 
+      Movies Will Display Here When Search! 
+    </h1>
     </div>
   )
 }

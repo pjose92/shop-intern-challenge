@@ -6,7 +6,9 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 const search = props => {
   return (
-    <div className="search-section">
+    <div 
+      className="search-section"
+    >
       <p 
         className='toplogo'> <img src={Icon} 
         className="app-logo" 
@@ -14,7 +16,7 @@ const search = props => {
         alt="logo" /></p>
       <p className = "title">Movie Awards For Entrepreneurs</p>
       <input 
-        placeholder= "Harry Potter, Enter at Least 3 letters" 
+        placeholder= "Type At Least 3 Letters To See Results" 
         className="userinput"
         onChange = {props.input}>
       </input>
