@@ -8,7 +8,6 @@
   font-size: 200%;
   padding:15px;
   position: fixed;
-
 }
 
 .title{
@@ -35,4 +34,7 @@
   .userinput {
     width: 300px;
   }
+  .title{
+    padding-top: 20%;
+  }  
 }

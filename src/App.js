@@ -106,7 +106,6 @@ render () {
       )} else results= <NoResult></NoResult>
 
   return (
-
     <div className="App">
       <Nomination
         list = {nominateList}
